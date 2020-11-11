@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"
+    android:background="#FF9370DB">
+    <EditText  
+        android:id="@+id/txtNote"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"
+        android:hint="Enter your reminder content!"
+        android:textColorHint="#00FF00" /> 
+    <EditText  
+        android:id="@+id/date_display"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:hint="Date of event"  
+        android:focusable="false"
+        android:textColorHint="#00FF00" />  
+    <EditText  
+        android:id="@+id/time_display"
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:hint="Time of event"  
+        android:focusable="false"
+        android:textColorHint="#00FF00" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<Button
+			android:background="#00FF00"
+			android:id="@+id/btnList"
+			android:layout_width="515px"
+			android:layout_height="wrap_content"
+			android:text="Cancel"
+			android:textColor="#800080"
+            android:layout_marginLeft="5dp" />
+		<Button
+			android:background="#00FF00"
+			android:id="@+id/save"
+			android:layout_width="515px"
+			android:layout_height="wrap_content"
+			android:text="Save Reminder"
+			android:textColor="#800080"
+            android:layout_marginLeft="10dp"/>
+	</LinearLayout>
+</LinearLayout>
