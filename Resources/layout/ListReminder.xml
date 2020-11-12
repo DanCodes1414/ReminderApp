@@ -6,6 +6,7 @@
     android:background="#00FF00">  
     <ListView  
         android:id="@+id/listReminder"
+        android:transitionName="listnamer"
         android:textColor="#800080"
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  

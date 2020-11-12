@@ -71,6 +71,7 @@
     <Compile Include="ListReminder.cs" />
     <Compile Include="GridReminder.cs" />
     <Compile Include="EditReminder.cs" />
+    <Compile Include="ReminderEdited.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -120,7 +121,11 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\Screenshot_2020_11_10_at_8_05_44_AM.png">
+    <AndroidResource Include="Resources\drawable\Screenshot_2020_11_11_at_4_57_02_PM.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ReminderEdited.xml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
@@ -137,6 +142,9 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
     <PackageReference Include="Newtonsoft.Json">
       <Version>12.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms">
+      <Version>4.8.0.1687</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

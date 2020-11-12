@@ -38,6 +38,18 @@ namespace ReminderApp.HelperRepository
             db.Close();
         }
 
+        public static void EditReminderData(Context context, Reminder reminder)
+        {
+            SQLiteDatabase db = new DataStore(context).WritableDatabase;
+            ContentValues contentValues = new ContentValues();
+            contentValues.Put(ColumnDate, reminder.Date);
+            contentValues.Put(ColumnTime, reminder.Time);
+            contentValues.Put(ColumnNote, reminder.Note);
+
+            db.Update(TableName, contentValues, null, null);
+            db.Close();
+        }
+
         public static List<Reminder> GetReminderList(Context context)
         {
             List<Reminder> reminder = new List<Reminder>();

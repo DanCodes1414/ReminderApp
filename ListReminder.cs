@@ -44,7 +44,7 @@ namespace ReminderApp
                 AlertDialog alert2 = dialog2.Create();
                 alert2.SetTitle("Delete Reminder");
                 alert2.SetMessage("Are you sure!");
-                alert2.SetIcon(Resource.Drawable.Screenshot_2020_11_10_at_8_05_44_AM);
+                alert2.SetIcon(Resource.Drawable.Screenshot_2020_11_11_at_4_57_02_PM);
                 alert2.SetButton("yes", (c, ev) =>  
                 {
                     TextView _txtLabel;

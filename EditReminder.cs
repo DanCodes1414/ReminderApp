@@ -58,11 +58,11 @@ namespace ReminderApp
 
                 if (selectedDT > currentDT)
                 {
-                    ReminderHelper.InsertReminderData(this, reminder);
+                    ReminderHelper.EditReminderData(this, reminder);
 
-                    var reminderAdded = new Intent(this, typeof(ReminderAdded));
-                    reminderAdded.PutExtra("reminder", JsonConvert.SerializeObject(reminder));
-                    StartActivity(reminderAdded);
+                    var reminderEdited = new Intent(this, typeof(ReminderAdded));
+                    reminderEdited.PutExtra("reminder", JsonConvert.SerializeObject(reminder));
+                    StartActivity(reminderEdited);
                 }
                 else
                 {
