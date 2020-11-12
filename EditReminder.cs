@@ -60,7 +60,7 @@ namespace ReminderApp
                 {
                     ReminderHelper.EditReminderData(this, reminder);
 
-                    var reminderEdited = new Intent(this, typeof(ReminderAdded));
+                    var reminderEdited = new Intent(this, typeof(ReminderEdited));
                     reminderEdited.PutExtra("reminder", JsonConvert.SerializeObject(reminder));
                     StartActivity(reminderEdited);
                 }

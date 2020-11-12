@@ -14,6 +14,7 @@
     <activity android:label="ReminderAdded" android:name="crc64703da93d69dcd97d.ReminderAdded" />
     <activity android:label="ReminderList" android:name="crc64703da93d69dcd97d.ListReminder" />
     <activity android:label="EditActivity" android:name="crc64703da93d69dcd97d.EditActivity" />
+    <activity android:label="ReminderEdited" android:name="crc64703da93d69dcd97d.ReminderEdited" />
     <service android:name="crc64a98abb514ffad9f1.KeepAliveService" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver" />

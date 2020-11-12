@@ -495,3 +495,5 @@
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/src/crc64ee486da937c010f4/ImageRenderer.java
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/src/crc64ee486da937c010f4/LabelRenderer.java
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/src/mono/android/support/v4/media/session/MediaSessionCompat_OnActiveChangeListenerImplementor.java
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/res/layout/reminderedited.xml
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/src/crc64703da93d69dcd97d/ReminderEdited.java
