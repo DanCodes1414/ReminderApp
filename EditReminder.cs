@@ -89,17 +89,14 @@ namespace ReminderApp
             SetContentView(Resource.Layout.activity_edit);
             reminder = new Reminder();
             var id = Intent.GetIntExtra("Id", 0);
-            if (id != 0)
-                reminder.Id = id;
+            var note = Intent.GetStringExtra("Note");
+            var time = Intent.GetStringExtra("Time");
             var date = Intent.GetStringExtra("Date");
             if (id != 0)
-                reminder.Date = date;
-            var time = Intent.GetStringExtra("Time");
-            if (id != 0)
-                reminder.Time = time;
-            var note = Intent.GetStringExtra("Note");
-            if (id != 0)
-                reminder.Note = note;
+                reminder.Id = id;
+            reminder.Note = note;
+            reminder.Date = date;
+            reminder.Time = time;
 
             _dateDisplay = FindViewById<EditText>(Resource.Id.date_display);
             _timeDisplay = FindViewById<EditText>(Resource.Id.time_display);
