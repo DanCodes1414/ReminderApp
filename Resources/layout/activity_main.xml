@@ -29,20 +29,20 @@
 		android:layout_width="match_parent"
 		android:layout_height="match_parent">
 		<Button
-			android:background="#00FF00"
+			android:background="@drawable/bg_button"
 			android:id="@+id/btnList"
 			android:layout_width="515px"
 			android:layout_height="wrap_content"
 			android:text="Cancel"
-			android:textColor="#800080"
+			android:textColor="#FF9370DB"
             android:layout_marginLeft="5dp" />
 		<Button
-			android:background="#00FF00"
+			android:background="@drawable/bg_button"
 			android:id="@+id/save"
 			android:layout_width="515px"
 			android:layout_height="wrap_content"
 			android:text="Save Reminder"
-			android:textColor="#800080"
+			android:textColor="#FF9370DB"
             android:layout_marginLeft="10dp"/>
 	</LinearLayout>
 </LinearLayout>

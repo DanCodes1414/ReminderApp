@@ -26,6 +26,7 @@ Button;obj/Debug/res/layout/reminderedited.xml
 cache-path;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/39/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 color;obj/Debug/res/values/colors.xml
 color;obj/Debug/res/values/ic_launcher_background.xml
+corners;obj/Debug/res/drawable/bg_button.xml
 declare-styleable;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/values/attrs.xml
 dimen;obj/Debug/res/values/dimens.xml
 EditText;obj/Debug/res/layout/activity_edit.xml
@@ -35,7 +36,9 @@ external-path;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp
 foreground;obj/Debug/res/mipmap-anydpi-v26/ic_launcher.xml
 foreground;obj/Debug/res/mipmap-anydpi-v26/ic_launcher_round.xml
 FrameLayout;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/layout/bottomtablayout.xml
+gradient;obj/Debug/res/drawable/bg_button.xml
 item;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/values/styles.xml
+item;obj/Debug/res/drawable/bg_button.xml
 item;obj/Debug/res/menu/menu_main.xml
 item;obj/Debug/res/values/styles.xml
 LinearLayout;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/layout/bottomtablayout.xml
@@ -46,6 +49,7 @@ LinearLayout;obj/Debug/res/layout/reminderadded.xml
 LinearLayout;obj/Debug/res/layout/reminderedited.xml
 ListView;obj/Debug/res/layout/listreminder.xml
 menu;obj/Debug/res/menu/menu_main.xml
+padding;obj/Debug/res/drawable/bg_button.xml
 paths;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/39/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 resources;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/values/attrs.xml
 resources;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/values/strings.xml
@@ -55,12 +59,16 @@ resources;obj/Debug/res/values/dimens.xml
 resources;obj/Debug/res/values/ic_launcher_background.xml
 resources;obj/Debug/res/values/strings.xml
 resources;obj/Debug/res/values/styles.xml
+selector;obj/Debug/res/drawable/bg_button.xml
 set;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/anim/enterfromleft.xml
 set;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/anim/enterfromright.xml
 set;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/anim/exittoleft.xml
 set;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/anim/exittoright.xml
+shape;obj/Debug/res/drawable/bg_button.xml
+solid;obj/Debug/res/drawable/bg_button.xml
 string;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/values/strings.xml
 string;obj/Debug/res/values/strings.xml
+stroke;obj/Debug/res/drawable/bg_button.xml
 style;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/values/styles.xml
 style;obj/Debug/res/values/styles.xml
 TableLayout;obj/Debug/res/layout/reminder_singleitem.xml

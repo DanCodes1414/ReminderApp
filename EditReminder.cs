@@ -6,6 +6,7 @@ using Android.Widget;
 using Newtonsoft.Json;
 using ReminderApp.Models;
 using ReminderApp.HelperRepository;
+using System.Threading;
 
 namespace ReminderApp
 {
@@ -97,6 +98,7 @@ namespace ReminderApp
             reminder.Note = note;
             reminder.Date = date;
             reminder.Time = time;
+
 
             _dateDisplay = FindViewById<EditText>(Resource.Id.date_display);
             _timeDisplay = FindViewById<EditText>(Resource.Id.time_display);

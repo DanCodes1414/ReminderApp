@@ -507,3 +507,4 @@
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/assets/System.Memory.dll
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/assets/System.Runtime.CompilerServices.Unsafe.dll
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/res/layout/activity_edit.xml
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/res/drawable/bg_button.xml

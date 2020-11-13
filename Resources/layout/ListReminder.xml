@@ -7,18 +7,18 @@
     <ListView  
         android:id="@+id/listReminder"
         android:transitionName="listnamer"
-        android:textColor="#800080"
+        android:textColor="#FF9370DB"
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
         android:layout_weight="1"  
         android:drawSelectorOnTop="false" />  
     <TextView  
         android:id="@+id/txt_label"
-        android:textColor="#800080"
+        android:textColor="#FF9370DB"
         android:layout_width="match_parent"  
         android:layout_height="wrap_content" />  
     <Button
-        android:background="#800080"
+        android:background="#FF9370DB"
         android:id="@+id/addNew"  
         android:layout_width="match_parent"  
         android:layout_height="wrap_content"  
