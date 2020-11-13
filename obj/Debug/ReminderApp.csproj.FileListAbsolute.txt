@@ -497,3 +497,13 @@
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/src/mono/android/support/v4/media/session/MediaSessionCompat_OnActiveChangeListenerImplementor.java
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/res/layout/reminderedited.xml
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/src/crc64703da93d69dcd97d/ReminderEdited.java
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/assets/Microsoft.Data.Sqlite.dll
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/assets/SQLitePCLRaw.batteries_v2.dll
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/assets/SQLitePCLRaw.core.dll
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/assets/SQLitePCLRaw.lib.e_sqlite3.android.dll
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/assets/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/assets/System.Buffers.dll
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/assets/System.Data.SQLite.dll
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/assets/System.Memory.dll
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/assets/System.Runtime.CompilerServices.Unsafe.dll
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/res/layout/activity_edit.xml

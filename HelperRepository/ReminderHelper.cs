@@ -46,7 +46,7 @@ namespace ReminderApp.HelperRepository
             contentValues.Put(ColumnTime, reminder.Time);
             contentValues.Put(ColumnNote, reminder.Note);
 
-            db.Update(TableName, contentValues, null, null);
+            db.Update(TableName, contentValues, ColumnID + "=" + reminder.Id, null);
             db.Close();
         }
 

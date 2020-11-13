@@ -60,7 +60,9 @@ namespace ReminderApp
             });
             alert.SetButton2("Edit", (c, ev) =>
             {
-                StartActivity(new Intent(this, typeof(EditActivity)));
+                var intent = new Intent(this, typeof(EditActivity));
+                intent.PutExtra("Id", listitem[e.Position].Id);
+                StartActivity(intent);
             });
             alert.SetButton3("Cancel", (c, ev) => { });
 

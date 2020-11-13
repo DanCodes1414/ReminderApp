@@ -86,8 +86,21 @@ namespace ReminderApp
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.activity_main);
+            SetContentView(Resource.Layout.activity_edit);
             reminder = new Reminder();
+            var id = Intent.GetIntExtra("Id", 0);
+            if (id != 0)
+                reminder.Id = id;
+            var date = Intent.GetStringExtra("Date");
+            if (id != 0)
+                reminder.Date = date;
+            var time = Intent.GetStringExtra("Time");
+            if (id != 0)
+                reminder.Time = time;
+            var note = Intent.GetStringExtra("Note");
+            if (id != 0)
+                reminder.Note = note;
+
             _dateDisplay = FindViewById<EditText>(Resource.Id.date_display);
             _timeDisplay = FindViewById<EditText>(Resource.Id.time_display);
             _txtNote = FindViewById<EditText>(Resource.Id.txtNote);

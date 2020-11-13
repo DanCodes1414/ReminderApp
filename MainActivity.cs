@@ -98,6 +98,7 @@ namespace ReminderApp
             _dateDisplay.Click += DateSelect_OnClick;
             _timeDisplay.Click += TimeSelectOnClick;
             _saveButton.Click += SaveRecords;
+
             _btnList.Click += (sender, e) => {
                 StartActivity(new Intent(this, typeof(ListReminder)));
             };
