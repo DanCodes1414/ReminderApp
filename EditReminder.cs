@@ -6,7 +6,6 @@ using Android.Widget;
 using Newtonsoft.Json;
 using ReminderApp.Models;
 using ReminderApp.HelperRepository;
-using System.Threading;
 
 namespace ReminderApp
 {
@@ -87,22 +86,22 @@ namespace ReminderApp
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.activity_edit);
-            reminder = new Reminder();
+            SetContentView(Resource.Layout.activity_main);
             var id = Intent.GetIntExtra("Id", 0);
-            var note = Intent.GetStringExtra("Note");
-            var time = Intent.GetStringExtra("Time");
-            var date = Intent.GetStringExtra("Date");
             if (id != 0)
-                reminder.Id = id;
-            reminder.Note = note;
-            reminder.Date = date;
-            reminder.Time = time;
-
+            {
+                reminder = ReminderHelper.SelectReminder(this, id);
+            }
+            if (reminder == null)
+                reminder = new Reminder();
 
             _dateDisplay = FindViewById<EditText>(Resource.Id.date_display);
             _timeDisplay = FindViewById<EditText>(Resource.Id.time_display);
             _txtNote = FindViewById<EditText>(Resource.Id.txtNote);
+
+            _dateDisplay.Text = reminder.Date;
+            _timeDisplay.Text = reminder.Time;
+            _txtNote.Text = reminder.Note;
 
             _saveButton = FindViewById<Button>(Resource.Id.save);
             _btnList = FindViewById<Button>(Resource.Id.btnList);
