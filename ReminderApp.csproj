@@ -73,6 +73,8 @@
     <Compile Include="GridReminder.cs" />
     <Compile Include="EditReminder.cs" />
     <Compile Include="ReminderEdited.cs" />
+    <Compile Include="Notifications\ReminderNotifications.cs" />
+    <Compile Include="ReminderContent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -138,11 +140,16 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\ReminderContent.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
     <Folder Include="Models\" />
     <Folder Include="HelperRepository\" />
+    <Folder Include="Notifications\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />

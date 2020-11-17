@@ -1,4 +1,6 @@
-﻿namespace ReminderApp.Models
+﻿using System;
+
+namespace ReminderApp.Models
 {
     public class Reminder
     {

@@ -6,6 +6,7 @@ using Android.Widget;
 using Newtonsoft.Json;
 using ReminderApp.Models;
 using ReminderApp.HelperRepository;
+using ReminderApp.Notifications;
 
 namespace ReminderApp
 {
@@ -59,7 +60,7 @@ namespace ReminderApp
                 if (selectedDT > currentDT)
                 {
                     ReminderHelper.InsertReminderData(this, reminder);
-                    //ScheduleReminder(reminder);
+                    ScheduleReminder(reminder);
                     var reminderAdded = new Intent(this, typeof(ReminderAdded));
                     reminderAdded.PutExtra("reminder", JsonConvert.SerializeObject(reminder));
                     StartActivity(reminderAdded);
@@ -102,6 +103,27 @@ namespace ReminderApp
             _btnList.Click += (sender, e) => {
                 StartActivity(new Intent(this, typeof(ListReminder)));
             };
+        }
+
+        public void ScheduleReminder(Reminder reminder)
+        {
+            AlarmManager manager = (AlarmManager)GetSystemService(AlarmService);
+            Intent myIntent;
+            PendingIntent pendingIntent;
+            myIntent = new Intent(this, typeof(ReminderNotifications));
+ 
+            var t = reminder.Time.Split(':');
+            var ampm = t[1].Split(' ')[1];
+            var hrr = Convert.ToDouble(t[0]);
+            var min = Convert.ToDouble(t[1].Split(' ')[0]);
+
+            string dateString = Convert.ToString(reminder.Date + " " + hrr + ":" + min + ":00 " + ampm);
+
+            DateTimeOffset dateOffsetValue = DateTimeOffset.Parse(dateString);
+            var millisec = dateOffsetValue.ToUnixTimeMilliseconds();
+
+            pendingIntent = PendingIntent.GetActivity(this, 0, myIntent, 0);
+            manager.Set(AlarmType.RtcWakeup, millisec, pendingIntent);
         }
     }
 }

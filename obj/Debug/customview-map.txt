@@ -22,6 +22,7 @@ Button;obj/Debug/res/layout/activity_edit.xml
 Button;obj/Debug/res/layout/activity_main.xml
 Button;obj/Debug/res/layout/listreminder.xml
 Button;obj/Debug/res/layout/reminderadded.xml
+Button;obj/Debug/res/layout/remindercontent.xml
 Button;obj/Debug/res/layout/reminderedited.xml
 cache-path;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/39/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 color;obj/Debug/res/values/colors.xml
@@ -46,6 +47,7 @@ LinearLayout;obj/Debug/res/layout/activity_edit.xml
 LinearLayout;obj/Debug/res/layout/activity_main.xml
 LinearLayout;obj/Debug/res/layout/listreminder.xml
 LinearLayout;obj/Debug/res/layout/reminderadded.xml
+LinearLayout;obj/Debug/res/layout/remindercontent.xml
 LinearLayout;obj/Debug/res/layout/reminderedited.xml
 ListView;obj/Debug/res/layout/listreminder.xml
 menu;obj/Debug/res/menu/menu_main.xml
@@ -77,6 +79,7 @@ TextClock;obj/Debug/res/layout/activity_edit.xml
 TextView;obj/Debug/res/layout/listreminder.xml
 TextView;obj/Debug/res/layout/reminder_singleitem.xml
 TextView;obj/Debug/res/layout/reminderadded.xml
+TextView;obj/Debug/res/layout/remindercontent.xml
 TextView;obj/Debug/res/layout/reminderedited.xml
 translate;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/anim/enterfromleft.xml
 translate;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/anim/enterfromright.xml

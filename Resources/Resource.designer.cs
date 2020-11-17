@@ -9367,28 +9367,31 @@ namespace ReminderApp
 			public const int ReminderAdded = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int ReminderEdited = 2131427396;
+			public const int ReminderContent = 2131427396;
+			
+			// aapt resource value: 0x7F0B0045
+			public const int ReminderEdited = 2131427397;
 			
 			// aapt resource value: 0x7F0B0042
 			public const int Reminder_SingleItem = 2131427394;
 			
-			// aapt resource value: 0x7F0B0045
-			public const int RootLayout = 2131427397;
-			
 			// aapt resource value: 0x7F0B0046
-			public const int select_dialog_item_material = 2131427398;
+			public const int RootLayout = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int select_dialog_multichoice_material = 2131427399;
+			public const int select_dialog_item_material = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int select_dialog_singlechoice_material = 2131427400;
+			public const int select_dialog_multichoice_material = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int ShellContent = 2131427401;
+			public const int select_dialog_singlechoice_material = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int support_simple_spinner_dropdown_item = 2131427402;
+			public const int ShellContent = 2131427402;
+			
+			// aapt resource value: 0x7F0B004B
+			public const int support_simple_spinner_dropdown_item = 2131427403;
 			
 			static Layout()
 			{
