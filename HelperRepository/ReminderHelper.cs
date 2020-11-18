@@ -136,5 +136,30 @@ namespace ReminderApp.HelperRepository
             }
             return reminder;
         }
+
+        public static Reminder SelectReminderByDateAndTime(Context context, string date, string time)
+        {
+            Reminder reminder;
+            SQLiteDatabase db = new DataStore(context).WritableDatabase;
+            string[] columns = new string[] { ColumnID, ColumnDate, ColumnTime, ColumnNote };
+            using (ICursor cursor = db.Query(TableName, columns, ColumnDate + "=? AND " + ColumnTime + "=?", new string[] { date, time }, null, null, null))
+            {
+                if (cursor.MoveToNext())
+                {
+                    reminder = new Reminder
+                    {
+                        Id = cursor.GetInt(cursor.GetColumnIndexOrThrow(ColumnID)),
+                        Date = cursor.GetString(cursor.GetColumnIndexOrThrow(ColumnDate)),
+                        Time = cursor.GetString(cursor.GetColumnIndexOrThrow(ColumnTime)),
+                        Note = cursor.GetString(cursor.GetColumnIndexOrThrow(ColumnNote))
+                    };
+                }
+                else
+                {
+                    reminder = null;
+                }
+            }
+            return reminder;
+        }
     }
 }

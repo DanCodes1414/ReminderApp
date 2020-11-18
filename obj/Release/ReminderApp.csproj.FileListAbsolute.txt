@@ -429,3 +429,6 @@
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/stamp/_GenerateJavaStubs.stamp
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/stamp/_GeneratePackageManagerJava.stamp
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/stamp/_ResolveLibraryProjectImports.stamp
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/res/layout/remindercontent.xml
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/android/src/crc64703da93d69dcd97d/ReminderContent.java
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/android/src/crc648e93636ce6a8b150/ReminderNotifications.java

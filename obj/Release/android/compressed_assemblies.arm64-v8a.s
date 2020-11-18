@@ -35,7 +35,7 @@
 
 	/* 3: Mono.Android.dll */
 	/* uncompressed_file_size */
-	.word	1925120
+	.word	1929216
 	/* loaded */
 	.byte	0
 	/* data */
@@ -62,7 +62,7 @@
 
 	/* 6: ReminderApp.dll */
 	/* uncompressed_file_size */
-	.word	230400
+	.word	230912
 	/* loaded */
 	.byte	0
 	/* data */
@@ -332,7 +332,7 @@
 
 	/* 36: Xamarin.Android.Support.Compat.dll */
 	/* uncompressed_file_size */
-	.word	512512
+	.word	424960
 	/* loaded */
 	.byte	0
 	/* data */

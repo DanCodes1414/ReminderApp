@@ -511,3 +511,4 @@
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/src/crc648e93636ce6a8b150/ReminderNotifications.java
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/res/layout/remindercontent.xml
 /Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/android/src/crc64703da93d69dcd97d/ReminderContent.java
+/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/res/layout/notificationalert.xml

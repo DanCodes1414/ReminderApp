@@ -111,7 +111,9 @@ namespace ReminderApp
             Intent myIntent;
             PendingIntent pendingIntent;
             myIntent = new Intent(this, typeof(ReminderNotifications));
- 
+            myIntent.PutExtra("date", reminder.Date);
+            myIntent.PutExtra("time", reminder.Time);
+
             var t = reminder.Time.Split(':');
             var ampm = t[1].Split(' ')[1];
             var hrr = Convert.ToDouble(t[0]);

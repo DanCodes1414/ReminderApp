@@ -46,6 +46,7 @@ LinearLayout;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/
 LinearLayout;obj/Debug/res/layout/activity_edit.xml
 LinearLayout;obj/Debug/res/layout/activity_main.xml
 LinearLayout;obj/Debug/res/layout/listreminder.xml
+LinearLayout;obj/Debug/res/layout/notificationalert.xml
 LinearLayout;obj/Debug/res/layout/reminderadded.xml
 LinearLayout;obj/Debug/res/layout/remindercontent.xml
 LinearLayout;obj/Debug/res/layout/reminderedited.xml
@@ -77,6 +78,7 @@ TableLayout;obj/Debug/res/layout/reminder_singleitem.xml
 TableRow;obj/Debug/res/layout/reminder_singleitem.xml
 TextClock;obj/Debug/res/layout/activity_edit.xml
 TextView;obj/Debug/res/layout/listreminder.xml
+TextView;obj/Debug/res/layout/notificationalert.xml
 TextView;obj/Debug/res/layout/reminder_singleitem.xml
 TextView;obj/Debug/res/layout/reminderadded.xml
 TextView;obj/Debug/res/layout/remindercontent.xml

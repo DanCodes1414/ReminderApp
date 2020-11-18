@@ -22,6 +22,7 @@ Button;obj/Release/res/layout/activity_edit.xml
 Button;obj/Release/res/layout/activity_main.xml
 Button;obj/Release/res/layout/listreminder.xml
 Button;obj/Release/res/layout/reminderadded.xml
+Button;obj/Release/res/layout/remindercontent.xml
 Button;obj/Release/res/layout/reminderedited.xml
 cache-path;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/lp/39/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 color;obj/Release/res/values/colors.xml
@@ -44,7 +45,9 @@ LinearLayout;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/l
 LinearLayout;obj/Release/res/layout/activity_edit.xml
 LinearLayout;obj/Release/res/layout/activity_main.xml
 LinearLayout;obj/Release/res/layout/listreminder.xml
+LinearLayout;obj/Release/res/layout/notificationalert.xml
 LinearLayout;obj/Release/res/layout/reminderadded.xml
+LinearLayout;obj/Release/res/layout/remindercontent.xml
 LinearLayout;obj/Release/res/layout/reminderedited.xml
 ListView;obj/Release/res/layout/listreminder.xml
 menu;obj/Release/res/menu/menu_main.xml
@@ -73,8 +76,10 @@ style;obj/Release/res/values/styles.xml
 TableLayout;obj/Release/res/layout/reminder_singleitem.xml
 TableRow;obj/Release/res/layout/reminder_singleitem.xml
 TextView;obj/Release/res/layout/listreminder.xml
+TextView;obj/Release/res/layout/notificationalert.xml
 TextView;obj/Release/res/layout/reminder_singleitem.xml
 TextView;obj/Release/res/layout/reminderadded.xml
+TextView;obj/Release/res/layout/remindercontent.xml
 TextView;obj/Release/res/layout/reminderedited.xml
 translate;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/lp/40/jl/res/anim/enterfromleft.xml
 translate;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/lp/40/jl/res/anim/enterfromright.xml
