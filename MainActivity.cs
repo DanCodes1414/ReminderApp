@@ -124,7 +124,7 @@ namespace ReminderApp
             DateTimeOffset dateOffsetValue = DateTimeOffset.Parse(dateString);
             var millisec = dateOffsetValue.ToUnixTimeMilliseconds();
 
-            pendingIntent = PendingIntent.GetActivity(this, 0, myIntent, 0);
+            pendingIntent = PendingIntent.GetActivity(this, new Random().Next(), myIntent, 0);
             manager.Set(AlarmType.RtcWakeup, millisec, pendingIntent);
         }
     }

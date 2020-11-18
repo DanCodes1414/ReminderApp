@@ -1,12 +1,10 @@
 ﻿using Android.App;
 using Android.Content;
 using Newtonsoft.Json;
-using ReminderApp.Models;
 using ReminderApp.HelperRepository;
 using Android.OS;
 using System;
-using static Android.Media.Audiofx.BassBoost;
-using Android.Media;
+using ReminderApp.Models;
 
 namespace ReminderApp.Notifications
 {
@@ -22,7 +20,6 @@ namespace ReminderApp.Notifications
         {
             base.OnCreate(bundle);
             string CHANNEL_ID = "dan1414";
-            int NOTIFY_ID = 0 + new Random().Next(1, 30);
 
             var channel = new NotificationChannel(CHANNEL_ID, "FCM Notifications", NotificationImportance.Default)
             {
@@ -36,6 +33,7 @@ namespace ReminderApp.Notifications
             reminder = ReminderHelper.SelectReminderByDateAndTime(this, date, time);
             if (reminder != null)
             {
+                int NOTIFY_ID = 0 + new Random().Next();
                 Intent newIntent = new Intent(this, typeof(ReminderContent));
                 newIntent.PutExtra("reminder", JsonConvert.SerializeObject(reminder));
 
@@ -50,7 +48,8 @@ namespace ReminderApp.Notifications
                 .SetContentIntent(resultPendingIntent)
                 .SetContentTitle("Reminder!!")
                 .SetSmallIcon(Resource.Drawable.Screenshot_2020_11_11_at_4_57_02_PM)
-                .SetContentText("Click for details..");
+                .SetContentText("Click for details..")
+                .SetDeleteIntent(resultPendingIntent);
                 NotificationManager notificationManager = (NotificationManager)GetSystemService(NotificationService);
                 notificationManager.CreateNotificationChannel(channel);
                 notificationManager.Notify(NOTIFY_ID, builder.Build());
