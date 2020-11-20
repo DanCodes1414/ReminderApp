@@ -16,14 +16,7 @@
     <activity android:label="EditActivity" android:name="crc64703da93d69dcd97d.EditActivity" />
     <activity android:label="ReminderEdited" android:name="crc64703da93d69dcd97d.ReminderEdited" />
     <activity android:label="ReminderContent" android:name="crc64703da93d69dcd97d.ReminderContent" />
-    <activity android:label="ReminderApp" android:name="crc648e93636ce6a8b150.ReminderNotifications" />
-    <service android:name="crc64a98abb514ffad9f1.KeepAliveService" />
-    <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" />
-    <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver" />
-    <receiver android:enabled="true" android:exported="false" android:label="Essentials Connectivity Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.ConnectivityBroadcastReceiver" />
-    <provider android:authorities="com.companyname.reminderapp.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="xamarin.essentials.fileProvider">
-      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/xamarin_essentials_fileprovider_file_paths" />
-    </provider>
+    <activity android:label="ReminderNotifications" android:name="crc648e93636ce6a8b150.ReminderNotifications" />
     <receiver android:enabled="true" android:exported="false" android:name="crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.reminderapp.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->

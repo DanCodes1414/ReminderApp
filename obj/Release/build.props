@@ -4,7 +4,7 @@ androidaotmode=none
 androidembedprofilers=
 androidenableprofiledaot=
 androiddextool=d8
-androidlinktool=
+androidlinktool=r8
 androidpackageformat=apk
 usesharedruntime=false
 embedassembliesintoapk=true
@@ -26,5 +26,4 @@ androidincludedebugsymbols=false
 androidpackagenamingpolicy=lowercasecrc64
 _nugetassetstimestamp=637407944505969607
 typemapkind=mvid
-androidsupportedabis=armeabi-v7a
-arm64-v8a
+androidsupportedabis=x86

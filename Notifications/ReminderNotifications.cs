@@ -5,10 +5,11 @@ using ReminderApp.HelperRepository;
 using Android.OS;
 using System;
 using ReminderApp.Models;
+using Android.Widget;
 
 namespace ReminderApp.Notifications
 {
-    [Activity(Label = "ReminderApp")]
+    [Activity(Label = "ReminderNotifications")]
     public class ReminderNotifications : Activity
     {
         Reminder reminder;
@@ -54,7 +55,8 @@ namespace ReminderApp.Notifications
                 notificationManager.CreateNotificationChannel(channel);
                 notificationManager.Notify(NOTIFY_ID, builder.Build());
             }
-            SetContentView(Resource.Layout.NotificationAlert);
+            Finish();
+            Toast.MakeText(this, "New Notification!", ToastLength.Long).Show();
         }
     }
 }

@@ -1,5 +1,6 @@
 @string/appbar_scrolling_view_behavior;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/layout/flyoutcontent.xml
 @string/appbar_scrolling_view_behavior;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/layout/rootlayout.xml
+activity;obj/Debug/res/layout/notificationalert.xml
 adaptive-icon;obj/Debug/res/mipmap-anydpi-v26/ic_launcher.xml
 adaptive-icon;obj/Debug/res/mipmap-anydpi-v26/ic_launcher_round.xml
 alpha;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/anim/enterfromleft.xml
@@ -27,7 +28,6 @@ Button;obj/Debug/res/layout/reminderedited.xml
 cache-path;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/39/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 color;obj/Debug/res/values/colors.xml
 color;obj/Debug/res/values/ic_launcher_background.xml
-corners;obj/Debug/res/drawable/bg_button.xml
 declare-styleable;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/values/attrs.xml
 dimen;obj/Debug/res/values/dimens.xml
 EditText;obj/Debug/res/layout/activity_edit.xml
@@ -76,9 +76,7 @@ style;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/r
 style;obj/Debug/res/values/styles.xml
 TableLayout;obj/Debug/res/layout/reminder_singleitem.xml
 TableRow;obj/Debug/res/layout/reminder_singleitem.xml
-TextClock;obj/Debug/res/layout/activity_edit.xml
 TextView;obj/Debug/res/layout/listreminder.xml
-TextView;obj/Debug/res/layout/notificationalert.xml
 TextView;obj/Debug/res/layout/reminder_singleitem.xml
 TextView;obj/Debug/res/layout/reminderadded.xml
 TextView;obj/Debug/res/layout/remindercontent.xml

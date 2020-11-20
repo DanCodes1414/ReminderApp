@@ -19,7 +19,6 @@ namespace ReminderApp
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.ReminderContent);
 
-            // Create your application here  
             reminder = JsonConvert.DeserializeObject<Reminder>(Intent.GetStringExtra("reminder"));
             ReminderHelper.DeleteReminder(this, reminder);
             _txtNote = FindViewById<TextView>(Resource.Id.txt_note);

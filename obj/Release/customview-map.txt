@@ -1,5 +1,7 @@
 @string/appbar_scrolling_view_behavior;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/lp/40/jl/res/layout/flyoutcontent.xml
 @string/appbar_scrolling_view_behavior;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/lp/40/jl/res/layout/rootlayout.xml
+action;obj/Release/res/layout/notificationalert.xml
+activity;obj/Release/res/layout/notificationalert.xml
 adaptive-icon;obj/Release/res/mipmap-anydpi-v26/ic_launcher.xml
 adaptive-icon;obj/Release/res/mipmap-anydpi-v26/ic_launcher_round.xml
 alpha;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/lp/40/jl/res/anim/enterfromleft.xml
@@ -25,6 +27,7 @@ Button;obj/Release/res/layout/reminderadded.xml
 Button;obj/Release/res/layout/remindercontent.xml
 Button;obj/Release/res/layout/reminderedited.xml
 cache-path;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/lp/39/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+category;obj/Release/res/layout/notificationalert.xml
 color;obj/Release/res/values/colors.xml
 color;obj/Release/res/values/ic_launcher_background.xml
 declare-styleable;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/lp/40/jl/res/values/attrs.xml
@@ -37,6 +40,7 @@ foreground;obj/Release/res/mipmap-anydpi-v26/ic_launcher.xml
 foreground;obj/Release/res/mipmap-anydpi-v26/ic_launcher_round.xml
 FrameLayout;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/lp/40/jl/res/layout/bottomtablayout.xml
 gradient;obj/Release/res/drawable/bg_button.xml
+intent-filter;obj/Release/res/layout/notificationalert.xml
 item;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Release/lp/40/jl/res/values/styles.xml
 item;obj/Release/res/drawable/bg_button.xml
 item;obj/Release/res/menu/menu_main.xml
