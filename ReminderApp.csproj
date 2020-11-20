@@ -35,6 +35,7 @@
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <AndroidSupportedAbis>arm64-v8a;armeabi-v7a;x86;x86_64</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -73,8 +74,8 @@
     <Compile Include="GridReminder.cs" />
     <Compile Include="EditReminder.cs" />
     <Compile Include="ReminderEdited.cs" />
-    <Compile Include="Notifications\ReminderNotifications.cs" />
     <Compile Include="ReminderContent.cs" />
+    <Compile Include="Notifications\ReminderNotifications.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -120,14 +121,6 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\image_2020_09_29T09_45_02_165Z.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\Screenshot_2020_11_11_at_4_57_02_PM.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
     <AndroidResource Include="Resources\layout\ReminderEdited.xml">
       <SubType></SubType>
       <Generator></Generator>
@@ -141,6 +134,22 @@
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ReminderContent.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\Screenshot_2020_11_20_at_12_31_31_PM.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\Screenshot_2020_11_20_at_12_32_36_PM.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\Screenshot_2020_11_20_at_12_38_23_PM.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\new_noti_celeb.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>

@@ -1,6 +1,5 @@
 @string/appbar_scrolling_view_behavior;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/layout/flyoutcontent.xml
 @string/appbar_scrolling_view_behavior;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/layout/rootlayout.xml
-activity;obj/Debug/res/layout/notificationalert.xml
 adaptive-icon;obj/Debug/res/mipmap-anydpi-v26/ic_launcher.xml
 adaptive-icon;obj/Debug/res/mipmap-anydpi-v26/ic_launcher_round.xml
 alpha;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/40/jl/res/anim/enterfromleft.xml
@@ -46,7 +45,6 @@ LinearLayout;/Users/danyalqureshi/Projects/ReminderApp/ReminderApp/obj/Debug/lp/
 LinearLayout;obj/Debug/res/layout/activity_edit.xml
 LinearLayout;obj/Debug/res/layout/activity_main.xml
 LinearLayout;obj/Debug/res/layout/listreminder.xml
-LinearLayout;obj/Debug/res/layout/notificationalert.xml
 LinearLayout;obj/Debug/res/layout/reminderadded.xml
 LinearLayout;obj/Debug/res/layout/remindercontent.xml
 LinearLayout;obj/Debug/res/layout/reminderedited.xml

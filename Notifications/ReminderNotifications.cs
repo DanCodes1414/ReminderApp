@@ -48,7 +48,8 @@ namespace ReminderApp.Notifications
                 .SetAutoCancel(true)
                 .SetContentIntent(resultPendingIntent)
                 .SetContentTitle("Reminder!!")
-                .SetSmallIcon(Resource.Drawable.Screenshot_2020_11_11_at_4_57_02_PM)
+                .SetSmallIcon(Resource.Drawable.new_noti_celeb)
+                .SetColor(0x169AB9)
                 .SetContentText("Click for details..")
                 .SetDeleteIntent(resultPendingIntent);
                 NotificationManager notificationManager = (NotificationManager)GetSystemService(NotificationService);

@@ -8340,16 +8340,16 @@ namespace ReminderApp
 			public const int ic_mtrl_chip_close_circle = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int image_2020_09_29T09_45_02_165Z = 2131165286;
+			public const int mtrl_snackbar_background = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int mtrl_snackbar_background = 2131165287;
+			public const int mtrl_tabs_default_indicator = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int mtrl_tabs_default_indicator = 2131165288;
+			public const int navigation_empty_icon = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int navigation_empty_icon = 2131165289;
+			public const int new_noti_celeb = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
 			public const int notification_action_background = 2131165290;
@@ -8388,13 +8388,19 @@ namespace ReminderApp
 			public const int notify_panel_notification_icon_bg = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int Screenshot_2020_11_11_at_4_57_02_PM = 2131165302;
+			public const int Screenshot_2020_11_20_at_12_31_31_PM = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int tooltip_frame_dark = 2131165303;
+			public const int Screenshot_2020_11_20_at_12_32_36_PM = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int tooltip_frame_light = 2131165304;
+			public const int Screenshot_2020_11_20_at_12_38_23_PM = 2131165304;
+			
+			// aapt resource value: 0x7F070079
+			public const int tooltip_frame_dark = 2131165305;
+			
+			// aapt resource value: 0x7F07007A
+			public const int tooltip_frame_light = 2131165306;
 			
 			static Drawable()
 			{

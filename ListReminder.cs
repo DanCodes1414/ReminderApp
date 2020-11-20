@@ -37,14 +37,14 @@ namespace ReminderApp
             AlertDialog alert = dialog.Create();
             alert.SetTitle("Edit or Delete?");
             alert.SetMessage("Would you like to edit your reminder or delete it?");
-            alert.SetIcon(Resource.Drawable.image_2020_09_29T09_45_02_165Z);
+            alert.SetIcon(Resource.Drawable.Screenshot_2020_11_20_at_12_32_36_PM);
             alert.SetButton("Delete", (c, ev) =>
             {
                 AlertDialog.Builder dialog2 = new AlertDialog.Builder(this);
                 AlertDialog alert2 = dialog2.Create();
                 alert2.SetTitle("Delete Reminder");
                 alert2.SetMessage("Are you sure!");
-                alert2.SetIcon(Resource.Drawable.Screenshot_2020_11_11_at_4_57_02_PM);
+                alert2.SetIcon(Resource.Drawable.Screenshot_2020_11_20_at_12_31_31_PM);
                 alert2.SetButton("yes", (c, ev) =>  
                 {
                     TextView _txtLabel;
