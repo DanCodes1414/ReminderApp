@@ -6,6 +6,7 @@ using Android.OS;
 using System;
 using ReminderApp.Models;
 using Android.Widget;
+using Android.Graphics;
 
 namespace ReminderApp.Notifications
 {
@@ -44,11 +45,14 @@ namespace ReminderApp.Notifications
 
                 PendingIntent resultPendingIntent = stackBuilder.GetPendingIntent(0, (int)PendingIntentFlags.UpdateCurrent);
 
+                var icon = BitmapFactory.DecodeResource(Resources, Resource.Drawable.new_noti_celeb);
+
                 Notification.Builder builder = new Notification.Builder(this, CHANNEL_ID)
                 .SetAutoCancel(true)
                 .SetContentIntent(resultPendingIntent)
                 .SetContentTitle("Reminder!!")
                 .SetSmallIcon(Resource.Drawable.new_noti_celeb)
+                .SetLargeIcon(icon)
                 .SetColor(0x169AB9)
                 .SetContentText("Click for details..")
                 .SetDeleteIntent(resultPendingIntent);
